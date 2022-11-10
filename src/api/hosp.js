@@ -44,11 +44,10 @@ export default {
       method: 'get'
     })
   },
-
   //查询排班详情
   getScheduleDetail(hoscode,depcode,workDate) {
     return request ({
-      url: `/admin/hosp/schedule/getScheduleDetail/${hoscode}/${depcode}/${workDate}`,
+      url: `/admin/hosp/hospitalSet/getScheduleDetail/${hoscode}/${depcode}/${workDate}`,
       method: 'get'
     })
   },
